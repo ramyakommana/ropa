@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Sample Suite]">
+  <test name="Test6(failed)">
+    <classes>
+      <class name="ropa_CAPSubmit.CAP_Submit">
+        <methods>
+          <include name="chair_after_cap"/>
+        </methods>
+      </class> <!-- ropa_CAPSubmit.CAP_Submit -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

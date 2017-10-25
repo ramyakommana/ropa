@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite" verbose="1" thread-count="13" preserve-order="true">
+
+  <test name="Test1" preserve-order="true">
+    <classes>
+   		 <class name="ropa_1site_Application.MiniAudit_application"/>
+       <class name="ropa_surveyorsAssign.Surveyors_assign"/>
+        <class name="ropa_CensusPart.Census_upload"/>
+        <class name="ropa_CensusPart.Census_agree"/>
+       </classes>
+  </test> <!-- Test -->
+       
+         <!-- <test name="Test2" parallel="classes">
+    <classes>
+         <class name="ropaToolKit.Ropa_ToolKit_OnsiteInterview"/>
+       <class name="ropaToolKit.Ropa_ToolKit_MdDataCollection"/>
+       <class name="ropaToolKit.RopaToolKit_phyInterview"/>
+       <class name="ropaToolKit.RopaToolKit_PhyDataCollection"/>
+     <class name="ropaToolKit.RopaToolKit_CheckList"/>
+     </classes>
+  </test> 
+  
+
+     <test name="Test3" parallel="classes">
+    <classes>
+     <class name="ropa_offline.MdForms_offline"/>
+     <class name="ropa_offline.Phyforms_offline"/>
+      </classes>
+  </test> -->
+  
+  
+      <test name="Test3" parallel="classes">
+    <classes>
+      <class name="ropa_mdforms.Md_OnsiteForms"/>
+      <class name="ropa_mdforms.Md_DataCollection"/>
+       <class name="ropa_phyforms.Phy_interview"/>
+      <class name="ropa_phyforms.Phy_DataCollection"/>
+       </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test4" preserve-order="true">
+    <classes>    
+      <class name="ropa_reviewers_side.MiniAudit_finalDecision"/>
+        </classes>
+       </test> <!-- Test -->
+</suite> <!-- Suite -->
+
