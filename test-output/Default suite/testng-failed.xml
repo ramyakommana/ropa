@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ropa_mdforms.Md_DataCollection">
+      <class name="smoke_testing.Smoke_testing">
         <methods>
-          <include name="phy_final_report"/>
+          <include name="Basic_smoke"/>
         </methods>
-      </class> <!-- ropa_mdforms.Md_DataCollection -->
+      </class> <!-- smoke_testing.Smoke_testing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
